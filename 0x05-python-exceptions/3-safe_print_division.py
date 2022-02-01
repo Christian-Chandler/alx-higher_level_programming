@@ -10,5 +10,5 @@ def safe_print_division(a, b):
     except (ZeroDivisionError, TypeError):
         quo = None
     finally:
-        print("Inside result : {}".format(quo))
+        print("Inside result: {}".format(quo))
     return quo
